@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Folder Browser Files">
+      <UniqueIdentifier>{556474ea-bcaf-41eb-aa85-6815fd5bba70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{ac9edb5e-9876-4c26-8eaf-26f01c7aa4cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{5a55a5aa-ca1a-4aad-8f11-aa2fa574418e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources and Pre Headers Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Dialog Files">
+      <UniqueIdentifier>{201245d4-6530-49db-8740-9b3dbd6b0ba5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dialog Files\ACP Dialog Files">
+      <UniqueIdentifier>{5e63ae68-f888-43af-b752-c5015dd88d62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dialog Files\MAIN OBD_DAT Dialog Files">
+      <UniqueIdentifier>{f94672b9-7ccf-49cd-8c2d-9f00a1224a95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dialog Files\Message Dialog Files">
+      <UniqueIdentifier>{2c03e9cf-75fa-4ef4-96e8-71b6f78227d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dialog Files\NODA Dialog Files">
+      <UniqueIdentifier>{d7178ebc-7662-4ea1-ba28-730bcb841e02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="obdnew">
+      <UniqueIdentifier>{e0a1293a-4d94-4cb8-94d3-bb3dc56765a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dialog Files\LSC Dialog Files">
+      <UniqueIdentifier>{dad2fd51-0e91-4c9c-a1b4-a260bc6f7210}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Resources and Pre Headers Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Resources and Pre Headers Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Resources and Pre Headers Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FilteredFolderDlg.h">
+      <Filter>Folder Browser Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FolderDlg.h">
+      <Filter>Folder Browser Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ListCarDlg.h">
+      <Filter>Dialog Files\LSC Dialog Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NODADlg.h">
+      <Filter>Dialog Files\NODA Dialog Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OBD_DATDlg.h">
+      <Filter>Dialog Files\MAIN OBD_DAT Dialog Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OBD_DAT.h">
+      <Filter>Dialog Files\MAIN OBD_DAT Dialog Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GUIBridge.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainDataClass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OBDFileReader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SortMethods.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OBDAnalyzer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ACPDlg.h">
+      <Filter>Dialog Files\ACP Dialog Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageDlg.h">
+      <Filter>Dialog Files\Message Dialog Files</Filter>
+    </ClInclude>
+    <ClInclude Include="progctrl.h">
+      <Filter>Dialog Files\NODA Dialog Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ObdAnalyzerNew.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="obdcommon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ObdDataNew.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ObdFileReaderNew.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ObdMainClass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="FilteredFolderDlg.cpp">
+      <Filter>Folder Browser Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FolderDlg.cpp">
+      <Filter>Folder Browser Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ListCarDlg.cpp">
+      <Filter>Dialog Files\LSC Dialog Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NODADlg.cpp">
+      <Filter>Dialog Files\NODA Dialog Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OBD_DAT.cpp">
+      <Filter>Dialog Files\MAIN OBD_DAT Dialog Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OBD_DATDlg.cpp">
+      <Filter>Dialog Files\MAIN OBD_DAT Dialog Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Resources and Pre Headers Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GUIBridge.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainDataClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OBDFileReader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SortMethods.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OBDAnalyzer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ACPDlg.cpp">
+      <Filter>Dialog Files\ACP Dialog Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MessageDlg.cpp">
+      <Filter>Dialog Files\Message Dialog Files</Filter>
+    </ClCompile>
+    <ClCompile Include="progctrl.cpp">
+      <Filter>Dialog Files\NODA Dialog Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ObdAnalyzerNew.cpp">
+      <Filter>obdnew</Filter>
+    </ClCompile>
+    <ClCompile Include="ObdDataNew.cpp">
+      <Filter>obdnew</Filter>
+    </ClCompile>
+    <ClCompile Include="ObdFileReaderNew.cpp">
+      <Filter>obdnew</Filter>
+    </ClCompile>
+    <ClCompile Include="ObdMainClass.cpp">
+      <Filter>obdnew</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="OBD_DAT.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\OBD_DAT.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\OBD_DAT.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\logo.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
